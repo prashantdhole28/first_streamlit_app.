@@ -22,5 +22,5 @@ streamlit.text(fruityvice_response)
 
 streamlit.header('Fruityvice Fruit Advice!')
 
-import snowflake.connector
+
 
