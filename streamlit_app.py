@@ -32,6 +32,8 @@ streamlit.text(fruityvice_response)
 
 streamlit.header('Fruityvice Fruit Advice!')
 
+
+
 import snowflake.connector
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
